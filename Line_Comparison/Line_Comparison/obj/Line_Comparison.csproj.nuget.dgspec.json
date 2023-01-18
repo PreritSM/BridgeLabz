@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\223089626\\source\\repos\\Line_Comparison\\Line_Comparison\\Line_Comparison.csproj": {}
+    "C:\\Users\\223089626\\source\\BridgeLabz\\Line_Comparison\\Line_Comparison\\Line_Comparison.csproj": {}
   },
   "projects": {
-    "C:\\Users\\223089626\\source\\repos\\Line_Comparison\\Line_Comparison\\Line_Comparison.csproj": {
+    "C:\\Users\\223089626\\source\\BridgeLabz\\Line_Comparison\\Line_Comparison\\Line_Comparison.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\223089626\\source\\repos\\Line_Comparison\\Line_Comparison\\Line_Comparison.csproj",
+        "projectUniqueName": "C:\\Users\\223089626\\source\\BridgeLabz\\Line_Comparison\\Line_Comparison\\Line_Comparison.csproj",
         "projectName": "Line_Comparison",
-        "projectPath": "C:\\Users\\223089626\\source\\repos\\Line_Comparison\\Line_Comparison\\Line_Comparison.csproj",
+        "projectPath": "C:\\Users\\223089626\\source\\BridgeLabz\\Line_Comparison\\Line_Comparison\\Line_Comparison.csproj",
         "packagesPath": "C:\\Users\\223089626\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\223089626\\source\\repos\\Line_Comparison\\Line_Comparison\\obj\\",
+        "outputPath": "C:\\Users\\223089626\\source\\BridgeLabz\\Line_Comparison\\Line_Comparison\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\223089626\\AppData\\Roaming\\NuGet\\NuGet.Config",

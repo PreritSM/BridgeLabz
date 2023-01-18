@@ -7,7 +7,7 @@ namespace emp_wages_line
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello, Welcome to the assignment on Employee Wage and Line Comparision");
+            Console.WriteLine("Hello, Welcome to the assignment on Employee Wage");
             //emp_wages myObj = new emp_wages();
             //myObj.empP_or_A();
             //myObj.dailyWage();
@@ -43,7 +43,7 @@ namespace emp_wages_line
             */
 
             // BELOW CODE USES THE OOPS CONCEPTS AND SPECIAL FOCUS ON INTERFACES
-            /* 
+            
              Console.WriteLine("Enter the number of companies' data you want to insert");
              int company_count = Convert.ToInt32(Console.ReadLine());
 
@@ -84,42 +84,8 @@ namespace emp_wages_line
 
 
              }
-             */
+             
 
-            //line_comp myObj2 = new line_comp();
-            //myObj2.lineLength();
-            //myObj2.equalLengthChecker();
-            //myObj2.lineLengthComparison();
-
-            Console.WriteLine("Welcome to the Line Comparison");
-            IComparison obj= new Comparison();
-
-            Console.WriteLine("Enter the coordinates for first line: ");
-            int x1, y1, x2, y2;
-            Console.WriteLine("Enter the X coordinate of first end point : ");
-            x1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter the Y coordinate of first end point : ");
-            y1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter the X coordinate of second end point : ");
-            x2 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter the y coordinate of second end point : ");
-            y2 = Convert.ToInt32(Console.ReadLine());
-
-            obj.Linepts(x1,y1, x2, y2);
-
-            Console.WriteLine("Enter the coordinates for first line: ");
-            Console.WriteLine("Enter the X coordinate of first end point : ");
-            x1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter the Y coordinate of first end point : ");
-            y1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter the X coordinate of second end point : ");
-            x2 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter the y coordinate of second end point : ");
-            y2 = Convert.ToInt32(Console.ReadLine());
-
-            obj.Linepts(x1,y1, x2, y2);
-
-            obj.lenComp();
 
         }
     }
