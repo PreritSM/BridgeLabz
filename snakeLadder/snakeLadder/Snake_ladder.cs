@@ -132,26 +132,50 @@ namespace snakeLadder
                 if (flag)
                 {
                     Console.WriteLine("Player 1 turn ");
-                    currPos1 = playerMoves(currPos1,ref timesPlayed1);
-                    Console.WriteLine(" The current position of player1 is : " + currPos1 + "\n\n");
-                    if (currPos1 == EndPos)
+                    int currPos1_temp = playerMoves(currPos1,ref timesPlayed1);
+                    
+                    Console.WriteLine(" The current position of player1 is : " + currPos1_temp + "\n\n");
+                    if (currPos1_temp == EndPos)
                     {
                         Console.WriteLine("The Player 1 won in " + timesPlayed1 + " rolls.");
                         break;
                     }
-                    flag= false;
+
+                    if (currPos1_temp > currPos1)
+                    {
+                        currPos1= currPos1_temp;
+                        flag = true;
+                       
+                    }
+                    else
+                    {
+                        currPos1 = currPos1_temp;
+                        flag= false;
+                    }
+                    
                 }
                 else
                 {
                     Console.WriteLine("Player 2 turn");
-                    currPos2 = playerMoves(currPos2,ref timesPlayed2);
-                    Console.WriteLine(" The current position of player2 is : " + currPos2 + "\n\n");
+                    int currPos2_temp = playerMoves(currPos2,ref timesPlayed2);
+                    Console.WriteLine(" The current position of player2 is : " + currPos2_temp + "\n\n");
                     if (currPos2 == EndPos)
                     {
                         Console.WriteLine("The Player 2 won in " + timesPlayed2 + " rolls.");
                         break;
                     }
-                    flag= true;
+
+                    if (currPos2_temp > currPos2)
+                    {
+                        currPos2 = currPos2_temp;
+                        flag= false;
+                    }
+                    else
+                    {
+                        currPos2 = currPos2_temp;
+                        flag = true;
+                    }
+                   
                 }
 
             }

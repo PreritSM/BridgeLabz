@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\223089626\\source\\repos\\Emp_wage_lineComp\\Emp_wage_lineComp\\Emp_wage_lineComp.csproj": {}
+    "C:\\Users\\223089626\\source\\BridgeLabz\\Emp_wage_lineComp\\Emp_wage_lineComp\\Emp_wage_lineComp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\223089626\\source\\repos\\Emp_wage_lineComp\\Emp_wage_lineComp\\Emp_wage_lineComp.csproj": {
+    "C:\\Users\\223089626\\source\\BridgeLabz\\Emp_wage_lineComp\\Emp_wage_lineComp\\Emp_wage_lineComp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\223089626\\source\\repos\\Emp_wage_lineComp\\Emp_wage_lineComp\\Emp_wage_lineComp.csproj",
+        "projectUniqueName": "C:\\Users\\223089626\\source\\BridgeLabz\\Emp_wage_lineComp\\Emp_wage_lineComp\\Emp_wage_lineComp.csproj",
         "projectName": "Emp_wage_lineComp",
-        "projectPath": "C:\\Users\\223089626\\source\\repos\\Emp_wage_lineComp\\Emp_wage_lineComp\\Emp_wage_lineComp.csproj",
+        "projectPath": "C:\\Users\\223089626\\source\\BridgeLabz\\Emp_wage_lineComp\\Emp_wage_lineComp\\Emp_wage_lineComp.csproj",
         "packagesPath": "C:\\Users\\223089626\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\223089626\\source\\repos\\Emp_wage_lineComp\\Emp_wage_lineComp\\obj\\",
+        "outputPath": "C:\\Users\\223089626\\source\\BridgeLabz\\Emp_wage_lineComp\\Emp_wage_lineComp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\223089626\\AppData\\Roaming\\NuGet\\NuGet.Config",
