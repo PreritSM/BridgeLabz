@@ -16,7 +16,7 @@ namespace emp_wages_line
             //myObj.wagesForMonthparameters();
 
             // BELOW CODE USES ARRAYLIST OF OBJECTS EXPLICITLY IN MAIN
-            /*
+            
            
             Console.WriteLine("Enter the number of companies' data you want to insert");
             int company_count = Convert.ToInt32(Console.ReadLine());
@@ -40,10 +40,10 @@ namespace emp_wages_line
             {
                 Console.WriteLine($"The final wage of the company {i + 1} is {wage_array[i]} ");
             }
-            */
+            
 
             // BELOW CODE USES THE OOPS CONCEPTS AND SPECIAL FOCUS ON INTERFACES
-            
+            /* 
              Console.WriteLine("Enter the number of companies' data you want to insert");
              int company_count = Convert.ToInt32(Console.ReadLine());
 
@@ -84,7 +84,7 @@ namespace emp_wages_line
 
 
              }
-             
+             */
 
 
         }

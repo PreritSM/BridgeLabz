@@ -1,0 +1,15 @@
+C:\Users\223089626\source\BridgeLabz\GenericDemo\GenericDemo\bin\Debug\net6.0\GenericDemo.exe
+C:\Users\223089626\source\BridgeLabz\GenericDemo\GenericDemo\bin\Debug\net6.0\GenericDemo.deps.json
+C:\Users\223089626\source\BridgeLabz\GenericDemo\GenericDemo\bin\Debug\net6.0\GenericDemo.runtimeconfig.json
+C:\Users\223089626\source\BridgeLabz\GenericDemo\GenericDemo\bin\Debug\net6.0\GenericDemo.dll
+C:\Users\223089626\source\BridgeLabz\GenericDemo\GenericDemo\bin\Debug\net6.0\GenericDemo.pdb
+C:\Users\223089626\source\BridgeLabz\GenericDemo\GenericDemo\obj\Debug\net6.0\GenericDemo.csproj.AssemblyReference.cache
+C:\Users\223089626\source\BridgeLabz\GenericDemo\GenericDemo\obj\Debug\net6.0\GenericDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\223089626\source\BridgeLabz\GenericDemo\GenericDemo\obj\Debug\net6.0\GenericDemo.AssemblyInfoInputs.cache
+C:\Users\223089626\source\BridgeLabz\GenericDemo\GenericDemo\obj\Debug\net6.0\GenericDemo.AssemblyInfo.cs
+C:\Users\223089626\source\BridgeLabz\GenericDemo\GenericDemo\obj\Debug\net6.0\GenericDemo.csproj.CoreCompileInputs.cache
+C:\Users\223089626\source\BridgeLabz\GenericDemo\GenericDemo\obj\Debug\net6.0\GenericDemo.dll
+C:\Users\223089626\source\BridgeLabz\GenericDemo\GenericDemo\obj\Debug\net6.0\refint\GenericDemo.dll
+C:\Users\223089626\source\BridgeLabz\GenericDemo\GenericDemo\obj\Debug\net6.0\GenericDemo.pdb
+C:\Users\223089626\source\BridgeLabz\GenericDemo\GenericDemo\obj\Debug\net6.0\GenericDemo.genruntimeconfig.cache
+C:\Users\223089626\source\BridgeLabz\GenericDemo\GenericDemo\obj\Debug\net6.0\ref\GenericDemo.dll
