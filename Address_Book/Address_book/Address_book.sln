@@ -4,7 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Address_book", "Address_book\Address_book.csproj", "{9E7556E1-6BB4-46C6-92AD-CE00FBD1CED0}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Address_book", "Address_book\Address_book.csproj", "{9E7556E1-6BB4-46C6-92AD-CE00FBD1CED0}"
+>>>>>>> Stashed changes
 =======
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Address_book", "Address_book\Address_book.csproj", "{9E7556E1-6BB4-46C6-92AD-CE00FBD1CED0}"
 >>>>>>> Stashed changes
