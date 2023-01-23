@@ -1,17 +1,19 @@
 ﻿using System;
 using System.Net.Http.Headers;
+using System.Security.Cryptography.X509Certificates;
+using AddressBook;
 
 namespace AddressBook
 {
-    public interface IContactList
-    {
-        public void Add_Contact(Contacts item);
-        public void Edit_Contact(string fname);
-        public void Delete_Contact(string fname);
-        public void Display();
+    //public interface IContactList
+    //{
+    //    public void Add_Contact(Contacts item);
+    //    public void Edit_Contact(string fname);
+    //    public void Delete_Contact(string fname);
+    //    public void Display();
 
 
-    }
+    //}
 
     
     public class Contacts
@@ -43,10 +45,12 @@ namespace AddressBook
         }
     }
 
-    public class ContactList : IContactList
+    public class ContactList 
     {
        // public List<string> Contact_list;
         public Dictionary<string,Contacts> Add_Book;
+        public Dictionary<string,Contacts> State_ID_Book;
+        public Dictionary<string, Contacts> City_ID_Book;
 
 
 
@@ -58,9 +62,17 @@ namespace AddressBook
 
         public void Add_Contact(Contacts item)
         {
-           // Contact_list.Add(item.FName);
-            Add_Book.Add(item.FName, item);
-        }
+            // Contact_list.Add(item.FName);
+            if (Add_Book.ContainsKey(item.FName))
+            {
+                Console.WriteLine("A contact with same first name already exists");
+            }
+            else
+            {
+                Add_Book.Add(item.FName, item);
+
+            }
+        }    
 
         public void Edit_Contact(string fname) {
 
@@ -138,5 +150,104 @@ namespace AddressBook
                     $"{Add_Book[item.Key].P_No}\n{Add_Book[item.Key].Email}\n\n");
             }
         }
+    }
+
+
+    public class AddressBookDict : ContactList
+    {
+        public Dictionary<string, ContactList> Add_Book_dict;
+
+        public Dictionary<string, List<Contacts>> City_ID_Book;         // For UC 9
+        public Dictionary<string, List<Contacts>> State_ID_Book;
+
+        public AddressBookDict()
+        {
+            Add_Book_dict= new Dictionary<string, ContactList>();
+            City_ID_Book= new Dictionary<string, List<Contacts>>();
+            State_ID_Book= new Dictionary<string, List<Contacts>>();
+        }
+
+        public void Add_To_Book_Dict(string DictName, ContactList book)
+        {
+            Add_Book_dict.Add(DictName, book);
+            foreach (Contacts contacts in book.Add_Book.Values)
+            {
+                if (!City_ID_Book.ContainsKey(contacts.City)) { City_ID_Book[contacts.City]= new List<Contacts>(); }
+                if (!State_ID_Book.ContainsKey(contacts.State)) { State_ID_Book[contacts.State]= new List<Contacts>(); }
+                City_ID_Book[contacts.City].Add(contacts);
+                State_ID_Book[contacts.State].Add(contacts);
+            }
+        }
+        // UC - 8
+        public void Search_using_city_state()
+        {
+            Console.WriteLine("Searching for Contacts with given city or state");
+            Console.WriteLine("Enter your choice for city or state");
+            string ans = Console.ReadLine();
+            if (ans == "city") {
+                Console.WriteLine("Enter the City");
+                string place = Console.ReadLine();
+                Search_using_City(place);
+            }
+            else
+            {
+                Console.WriteLine("Enter the State");
+                string place = Console.ReadLine() ;
+                Search_using_State(place);
+            }
+
+            
+        }
+
+        public void Search_using_City(string city)
+        {
+            Console.WriteLine($"Search results for given city {city} is \n");
+            foreach (KeyValuePair<string, ContactList> item in Add_Book_dict)
+            {
+                Dictionary<string, Contacts> add_Book = item.Value.Add_Book;
+                foreach (KeyValuePair<string, Contacts> book in add_Book)
+                {
+                    if (book.Value.City == city)
+                    {
+                        book.Value.Display();
+                    }
+                }
+            }
+        }
+
+        public void Search_using_State(string state)
+        {
+            Console.WriteLine($"Search results for given state {state} is \n");
+            foreach (KeyValuePair<string, ContactList> item in Add_Book_dict)
+            {
+                Dictionary<string, Contacts> add_Book = item.Value.Add_Book;
+                foreach (KeyValuePair<string, Contacts> book in add_Book)
+                {
+                    if (book.Value.State == state)
+                    {
+                        book.Value.Display();
+                    }
+                }
+            }
+        }
+
+        // UC - 10
+
+        public void get_count_city() {
+            foreach (KeyValuePair<string,List<Contacts>> item in City_ID_Book)
+            {
+                Console.WriteLine($"The number of contacts for the city {item.Key} is {item.Value.Count}");
+            }
+        }
+
+        public void get_count_state()
+        {
+            foreach (KeyValuePair<string,List<Contacts>> item in State_ID_Book)
+            {
+                Console.WriteLine($"The number of contacts for the state {item.Key} is {item.Value.Count}");
+            }
+        }
+
+
     }
 }

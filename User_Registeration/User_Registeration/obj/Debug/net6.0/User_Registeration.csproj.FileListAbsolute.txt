@@ -1,0 +1,15 @@
+C:\Users\223089626\source\BridgeLabz\User_Registeration\User_Registeration\bin\Debug\net6.0\User_Registeration.exe
+C:\Users\223089626\source\BridgeLabz\User_Registeration\User_Registeration\bin\Debug\net6.0\User_Registeration.deps.json
+C:\Users\223089626\source\BridgeLabz\User_Registeration\User_Registeration\bin\Debug\net6.0\User_Registeration.runtimeconfig.json
+C:\Users\223089626\source\BridgeLabz\User_Registeration\User_Registeration\bin\Debug\net6.0\User_Registeration.dll
+C:\Users\223089626\source\BridgeLabz\User_Registeration\User_Registeration\bin\Debug\net6.0\User_Registeration.pdb
+C:\Users\223089626\source\BridgeLabz\User_Registeration\User_Registeration\obj\Debug\net6.0\User_Registeration.csproj.AssemblyReference.cache
+C:\Users\223089626\source\BridgeLabz\User_Registeration\User_Registeration\obj\Debug\net6.0\User_Registeration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\223089626\source\BridgeLabz\User_Registeration\User_Registeration\obj\Debug\net6.0\User_Registeration.AssemblyInfoInputs.cache
+C:\Users\223089626\source\BridgeLabz\User_Registeration\User_Registeration\obj\Debug\net6.0\User_Registeration.AssemblyInfo.cs
+C:\Users\223089626\source\BridgeLabz\User_Registeration\User_Registeration\obj\Debug\net6.0\User_Registeration.csproj.CoreCompileInputs.cache
+C:\Users\223089626\source\BridgeLabz\User_Registeration\User_Registeration\obj\Debug\net6.0\User_Registeration.dll
+C:\Users\223089626\source\BridgeLabz\User_Registeration\User_Registeration\obj\Debug\net6.0\refint\User_Registeration.dll
+C:\Users\223089626\source\BridgeLabz\User_Registeration\User_Registeration\obj\Debug\net6.0\User_Registeration.pdb
+C:\Users\223089626\source\BridgeLabz\User_Registeration\User_Registeration\obj\Debug\net6.0\User_Registeration.genruntimeconfig.cache
+C:\Users\223089626\source\BridgeLabz\User_Registeration\User_Registeration\obj\Debug\net6.0\ref\User_Registeration.dll
