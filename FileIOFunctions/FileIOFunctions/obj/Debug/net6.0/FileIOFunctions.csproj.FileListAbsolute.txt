@@ -1,0 +1,15 @@
+C:\Users\223089626\source\BridgeLabz\FileIOFunctions\FileIOFunctions\bin\Debug\net6.0\FileIOFunctions.exe
+C:\Users\223089626\source\BridgeLabz\FileIOFunctions\FileIOFunctions\bin\Debug\net6.0\FileIOFunctions.deps.json
+C:\Users\223089626\source\BridgeLabz\FileIOFunctions\FileIOFunctions\bin\Debug\net6.0\FileIOFunctions.runtimeconfig.json
+C:\Users\223089626\source\BridgeLabz\FileIOFunctions\FileIOFunctions\bin\Debug\net6.0\FileIOFunctions.dll
+C:\Users\223089626\source\BridgeLabz\FileIOFunctions\FileIOFunctions\bin\Debug\net6.0\FileIOFunctions.pdb
+C:\Users\223089626\source\BridgeLabz\FileIOFunctions\FileIOFunctions\obj\Debug\net6.0\FileIOFunctions.csproj.AssemblyReference.cache
+C:\Users\223089626\source\BridgeLabz\FileIOFunctions\FileIOFunctions\obj\Debug\net6.0\FileIOFunctions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\223089626\source\BridgeLabz\FileIOFunctions\FileIOFunctions\obj\Debug\net6.0\FileIOFunctions.AssemblyInfoInputs.cache
+C:\Users\223089626\source\BridgeLabz\FileIOFunctions\FileIOFunctions\obj\Debug\net6.0\FileIOFunctions.AssemblyInfo.cs
+C:\Users\223089626\source\BridgeLabz\FileIOFunctions\FileIOFunctions\obj\Debug\net6.0\FileIOFunctions.csproj.CoreCompileInputs.cache
+C:\Users\223089626\source\BridgeLabz\FileIOFunctions\FileIOFunctions\obj\Debug\net6.0\FileIOFunctions.dll
+C:\Users\223089626\source\BridgeLabz\FileIOFunctions\FileIOFunctions\obj\Debug\net6.0\refint\FileIOFunctions.dll
+C:\Users\223089626\source\BridgeLabz\FileIOFunctions\FileIOFunctions\obj\Debug\net6.0\FileIOFunctions.pdb
+C:\Users\223089626\source\BridgeLabz\FileIOFunctions\FileIOFunctions\obj\Debug\net6.0\FileIOFunctions.genruntimeconfig.cache
+C:\Users\223089626\source\BridgeLabz\FileIOFunctions\FileIOFunctions\obj\Debug\net6.0\ref\FileIOFunctions.dll

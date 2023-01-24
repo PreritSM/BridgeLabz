@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoodAnalyzer", "MoodAnalyzer\MoodAnalyzer.csproj", "{4D0B344C-F66E-468F-9ACF-1BC6601819C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoodAnalyzer", "MoodAnalyzer\MoodAnalyzer.csproj", "{4D0B344C-F66E-468F-9ACF-1BC6601819C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoodAnalyzerTestProject", "MoodAnalyzerTestProject\MoodAnalyzerTestProject.csproj", "{697D540B-C96A-41DB-986D-577AC422E536}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoodAnalyzerTestProject", "MoodAnalyzerTestProject\MoodAnalyzerTestProject.csproj", "{697D540B-C96A-41DB-986D-577AC422E536}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda_exp", "Lambda_exp\Lambda_exp.csproj", "{C2B2982C-1084-44F8-ADDF-F01D64447614}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{697D540B-C96A-41DB-986D-577AC422E536}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{697D540B-C96A-41DB-986D-577AC422E536}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{697D540B-C96A-41DB-986D-577AC422E536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2B2982C-1084-44F8-ADDF-F01D64447614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2B2982C-1084-44F8-ADDF-F01D64447614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2B2982C-1084-44F8-ADDF-F01D64447614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2B2982C-1084-44F8-ADDF-F01D64447614}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

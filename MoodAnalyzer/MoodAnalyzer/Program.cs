@@ -12,9 +12,10 @@ namespace MoodAnalyzer
 
             MoodAnalyzer mood = new MoodAnalyzer();
 
-            Console.WriteLine( mood.AnalyzeMood("I am in a Happy mood"));
+            Console.WriteLine(mood.AnalyzeMood("I am in a Happy mood"));
             Console.WriteLine(mood.AnalyzeMood("I am in a Sad mood"));
 
+            Console.WriteLine(mood.AnalyzeMood(null)); ;
         }
     }
 }

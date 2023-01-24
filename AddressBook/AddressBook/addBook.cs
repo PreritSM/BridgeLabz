@@ -163,7 +163,7 @@ namespace AddressBook
         public AddressBookDict()
         {
             Add_Book_dict= new Dictionary<string, ContactList>();
-            City_ID_Book= new Dictionary<string, List<Contacts>>();
+            City_ID_Book= new Dictionary<string, List<Contacts>>(); //cities dict
             State_ID_Book= new Dictionary<string, List<Contacts>>();
         }
 

@@ -1,0 +1,15 @@
+C:\Users\223089626\source\BridgeLabz\MoodAnalyzer\Lambda_exp\bin\Debug\net6.0\Lambda_exp.exe
+C:\Users\223089626\source\BridgeLabz\MoodAnalyzer\Lambda_exp\bin\Debug\net6.0\Lambda_exp.deps.json
+C:\Users\223089626\source\BridgeLabz\MoodAnalyzer\Lambda_exp\bin\Debug\net6.0\Lambda_exp.runtimeconfig.json
+C:\Users\223089626\source\BridgeLabz\MoodAnalyzer\Lambda_exp\bin\Debug\net6.0\Lambda_exp.dll
+C:\Users\223089626\source\BridgeLabz\MoodAnalyzer\Lambda_exp\bin\Debug\net6.0\Lambda_exp.pdb
+C:\Users\223089626\source\BridgeLabz\MoodAnalyzer\Lambda_exp\obj\Debug\net6.0\Lambda_exp.csproj.AssemblyReference.cache
+C:\Users\223089626\source\BridgeLabz\MoodAnalyzer\Lambda_exp\obj\Debug\net6.0\Lambda_exp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\223089626\source\BridgeLabz\MoodAnalyzer\Lambda_exp\obj\Debug\net6.0\Lambda_exp.AssemblyInfoInputs.cache
+C:\Users\223089626\source\BridgeLabz\MoodAnalyzer\Lambda_exp\obj\Debug\net6.0\Lambda_exp.AssemblyInfo.cs
+C:\Users\223089626\source\BridgeLabz\MoodAnalyzer\Lambda_exp\obj\Debug\net6.0\Lambda_exp.csproj.CoreCompileInputs.cache
+C:\Users\223089626\source\BridgeLabz\MoodAnalyzer\Lambda_exp\obj\Debug\net6.0\Lambda_exp.dll
+C:\Users\223089626\source\BridgeLabz\MoodAnalyzer\Lambda_exp\obj\Debug\net6.0\refint\Lambda_exp.dll
+C:\Users\223089626\source\BridgeLabz\MoodAnalyzer\Lambda_exp\obj\Debug\net6.0\Lambda_exp.pdb
+C:\Users\223089626\source\BridgeLabz\MoodAnalyzer\Lambda_exp\obj\Debug\net6.0\Lambda_exp.genruntimeconfig.cache
+C:\Users\223089626\source\BridgeLabz\MoodAnalyzer\Lambda_exp\obj\Debug\net6.0\ref\Lambda_exp.dll
