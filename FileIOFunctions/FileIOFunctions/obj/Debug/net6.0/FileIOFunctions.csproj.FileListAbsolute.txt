@@ -13,3 +13,5 @@ C:\Users\223089626\source\BridgeLabz\FileIOFunctions\FileIOFunctions\obj\Debug\n
 C:\Users\223089626\source\BridgeLabz\FileIOFunctions\FileIOFunctions\obj\Debug\net6.0\FileIOFunctions.pdb
 C:\Users\223089626\source\BridgeLabz\FileIOFunctions\FileIOFunctions\obj\Debug\net6.0\FileIOFunctions.genruntimeconfig.cache
 C:\Users\223089626\source\BridgeLabz\FileIOFunctions\FileIOFunctions\obj\Debug\net6.0\ref\FileIOFunctions.dll
+C:\Users\223089626\source\BridgeLabz\FileIOFunctions\FileIOFunctions\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\223089626\source\BridgeLabz\FileIOFunctions\FileIOFunctions\obj\Debug\net6.0\FileIOFunctions.csproj.CopyComplete

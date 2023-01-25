@@ -1,6 +1,7 @@
 ﻿using System;
+using System.IO;
 
-namespace FileIOOperations
+namespace FileIOFunctions
 {
     class Program
     {
@@ -9,6 +10,8 @@ namespace FileIOOperations
             string path = @"C:\Users\223089626\source\BridgeLabz\TextFile1.txt";
             Console.WriteLine("Welcome to File IO Problems");
             FileExists(path);
+            BinaryOperations Bin = new BinaryOperations();
+            Bin.BinarySerialization();
 
         }
 
@@ -41,13 +44,15 @@ namespace FileIOOperations
             if (FileExists(path))
             {
                 string data3 = "New Entries";
-                File.AppendAllLines(path, data3);
-                File.ReadAllLines(path);
+              //  File.AppendAllLines(path, data3);
+              //  File.ReadAllLines(path);
             }
             else
             {
                 Console.WriteLine("File doesnt exists");
             }
+
+            
         }
     }
 }

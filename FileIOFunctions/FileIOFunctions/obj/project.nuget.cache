@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/BbJWAs04usax8WDI5EeAU3eA9d4XzWpSVjiUlyQLAvPR+aDbAz764AZPh5w32NpGfpBvLesW2fCjsvoa7EApA==",
+  "dgSpecHash": "1YPGWA1Pqh90k2/rI0yEOLjlYJ2bTD7WWwJuehsUrQSf4sL8rRmCmpSpsnr51hFMME633642yzByc8oxOpIJAA==",
   "success": true,
   "projectFilePath": "C:\\Users\\223089626\\source\\BridgeLabz\\FileIOFunctions\\FileIOFunctions\\FileIOFunctions.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\223089626\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
