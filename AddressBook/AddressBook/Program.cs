@@ -25,6 +25,7 @@ namespace AddressBook
 
             contactList.Display();
             Console.WriteLine("\n");
+            /*
             contactList.Edit_Contact("Ayush");
 
 
@@ -40,6 +41,12 @@ namespace AddressBook
 
             contactDict.get_count_city();
             contactDict.get_count_state();
+
+            */
+
+            FileIO obj = new FileIO();
+            obj.WriteToTxt(contactList);
+            obj.ReadFromTxt();
         }
     }
 }
