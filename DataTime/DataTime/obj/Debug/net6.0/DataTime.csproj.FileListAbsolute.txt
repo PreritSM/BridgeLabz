@@ -1,0 +1,15 @@
+C:\Users\223089626\source\BridgeLabz\DataTime\DataTime\bin\Debug\net6.0\DataTime.exe
+C:\Users\223089626\source\BridgeLabz\DataTime\DataTime\bin\Debug\net6.0\DataTime.deps.json
+C:\Users\223089626\source\BridgeLabz\DataTime\DataTime\bin\Debug\net6.0\DataTime.runtimeconfig.json
+C:\Users\223089626\source\BridgeLabz\DataTime\DataTime\bin\Debug\net6.0\DataTime.dll
+C:\Users\223089626\source\BridgeLabz\DataTime\DataTime\bin\Debug\net6.0\DataTime.pdb
+C:\Users\223089626\source\BridgeLabz\DataTime\DataTime\obj\Debug\net6.0\DataTime.csproj.AssemblyReference.cache
+C:\Users\223089626\source\BridgeLabz\DataTime\DataTime\obj\Debug\net6.0\DataTime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\223089626\source\BridgeLabz\DataTime\DataTime\obj\Debug\net6.0\DataTime.AssemblyInfoInputs.cache
+C:\Users\223089626\source\BridgeLabz\DataTime\DataTime\obj\Debug\net6.0\DataTime.AssemblyInfo.cs
+C:\Users\223089626\source\BridgeLabz\DataTime\DataTime\obj\Debug\net6.0\DataTime.csproj.CoreCompileInputs.cache
+C:\Users\223089626\source\BridgeLabz\DataTime\DataTime\obj\Debug\net6.0\DataTime.dll
+C:\Users\223089626\source\BridgeLabz\DataTime\DataTime\obj\Debug\net6.0\refint\DataTime.dll
+C:\Users\223089626\source\BridgeLabz\DataTime\DataTime\obj\Debug\net6.0\DataTime.pdb
+C:\Users\223089626\source\BridgeLabz\DataTime\DataTime\obj\Debug\net6.0\DataTime.genruntimeconfig.cache
+C:\Users\223089626\source\BridgeLabz\DataTime\DataTime\obj\Debug\net6.0\ref\DataTime.dll
