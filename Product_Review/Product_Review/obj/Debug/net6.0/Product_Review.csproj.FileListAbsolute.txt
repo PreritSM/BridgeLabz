@@ -1,0 +1,15 @@
+C:\Users\223089626\source\BridgeLabz\Product_Review\Product_Review\bin\Debug\net6.0\Product_Review.exe
+C:\Users\223089626\source\BridgeLabz\Product_Review\Product_Review\bin\Debug\net6.0\Product_Review.deps.json
+C:\Users\223089626\source\BridgeLabz\Product_Review\Product_Review\bin\Debug\net6.0\Product_Review.runtimeconfig.json
+C:\Users\223089626\source\BridgeLabz\Product_Review\Product_Review\bin\Debug\net6.0\Product_Review.dll
+C:\Users\223089626\source\BridgeLabz\Product_Review\Product_Review\bin\Debug\net6.0\Product_Review.pdb
+C:\Users\223089626\source\BridgeLabz\Product_Review\Product_Review\obj\Debug\net6.0\Product_Review.csproj.AssemblyReference.cache
+C:\Users\223089626\source\BridgeLabz\Product_Review\Product_Review\obj\Debug\net6.0\Product_Review.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\223089626\source\BridgeLabz\Product_Review\Product_Review\obj\Debug\net6.0\Product_Review.AssemblyInfoInputs.cache
+C:\Users\223089626\source\BridgeLabz\Product_Review\Product_Review\obj\Debug\net6.0\Product_Review.AssemblyInfo.cs
+C:\Users\223089626\source\BridgeLabz\Product_Review\Product_Review\obj\Debug\net6.0\Product_Review.csproj.CoreCompileInputs.cache
+C:\Users\223089626\source\BridgeLabz\Product_Review\Product_Review\obj\Debug\net6.0\Product_Review.dll
+C:\Users\223089626\source\BridgeLabz\Product_Review\Product_Review\obj\Debug\net6.0\refint\Product_Review.dll
+C:\Users\223089626\source\BridgeLabz\Product_Review\Product_Review\obj\Debug\net6.0\Product_Review.pdb
+C:\Users\223089626\source\BridgeLabz\Product_Review\Product_Review\obj\Debug\net6.0\Product_Review.genruntimeconfig.cache
+C:\Users\223089626\source\BridgeLabz\Product_Review\Product_Review\obj\Debug\net6.0\ref\Product_Review.dll
