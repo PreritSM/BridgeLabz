@@ -1,9 +1,9 @@
 --- GET ALL EMPLOYEES
 
-create procedure GetAllEmployeeData
+ALter procedure GetAllEmployeeData
 as
 Begin
-Select * from Employee_Payroll_Audit
+Select * from Employee_Payroll
 end;
 
 Exec GetAllEmployeeData;
