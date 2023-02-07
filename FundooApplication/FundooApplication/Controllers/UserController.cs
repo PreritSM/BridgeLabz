@@ -1,4 +1,5 @@
-﻿using BussinessLayer.Interfaces;
+﻿using System;
+using BussinessLayer.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ModelLayer;
@@ -30,6 +31,28 @@ namespace FundooApplication.Controllers
             else
             {
                 return BadRequest(new ResponseModel<UserEntity> { Status = false, Message = "Register Failed" });
+            }
+        }
+
+        [HttpPost]
+        [Route("Login")]
+        public IActionResult Login(LoginModel model)
+        {
+            try
+            {
+                var LoginData = user.Login(model);
+                if (LoginData != null)
+                {
+                    return Ok(new ResponseModel<string> { Status = true, Message = "Login Succesful", Data = LoginData });
+                }
+                else
+                {
+                    return BadRequest(new ResponseModel<string> { Status = false, Message = "login Failed" });
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
             }
         }
     }

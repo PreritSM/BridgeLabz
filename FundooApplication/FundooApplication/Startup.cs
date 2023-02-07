@@ -36,6 +36,7 @@ namespace FundooApplication
             services.AddDbContext<FundooDBContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:FundooDB"]));
             services.AddTransient<IUserRespository, UserRespository>();
             services.AddTransient<IUserBusiness, UserBusiness>();
+            services.AddSwaggerGen();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,6 +48,11 @@ namespace FundooApplication
             }
 
             app.UseHttpsRedirection();
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Fundoo API V1");
+            });
 
             app.UseRouting();
 

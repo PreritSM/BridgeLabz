@@ -20,5 +20,10 @@ namespace BussinessLayer.Services
         {
             return this.user.Register (model);
         }
+
+        public string Login(LoginModel model)
+        {
+            return this.user.Login (model);
+        }
     }
 }
