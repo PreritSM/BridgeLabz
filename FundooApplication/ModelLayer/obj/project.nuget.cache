@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hrL/UbOsokYfsivaRZhUkq9oR5zH5RgLFDDBNGYJIVb2Ejot/bLokMydLW3ug0SMluVSsFWU6J5xmw88wghnkg==",
+  "dgSpecHash": "T+M/ovY4KxXTt30d7sPJDp1ebpsD6K28g0vyyKz1BrjFf3OTaR8o9F9f/uv8GqcnQ6TTP1xpNf6G9aftCgFYlw==",
   "success": true,
   "projectFilePath": "C:\\Users\\223089626\\source\\BridgeLabz\\FundooApplication\\ModelLayer\\ModelLayer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\223089626\\.nuget\\packages\\experimental.system.messaging\\1.1.0\\experimental.system.messaging.1.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -61,3 +61,8 @@ C:\Users\223089626\source\BridgeLabz\FundooApplication\FundooApplication\obj\Deb
 C:\Users\223089626\source\BridgeLabz\FundooApplication\FundooApplication\obj\Debug\netcoreapp3.1\FundooApplication.dll
 C:\Users\223089626\source\BridgeLabz\FundooApplication\FundooApplication\obj\Debug\netcoreapp3.1\FundooApplication.pdb
 C:\Users\223089626\source\BridgeLabz\FundooApplication\FundooApplication\obj\Debug\netcoreapp3.1\FundooApplication.genruntimeconfig.cache
+C:\Users\223089626\source\BridgeLabz\FundooApplication\FundooApplication\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\223089626\source\BridgeLabz\FundooApplication\FundooApplication\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\223089626\source\BridgeLabz\FundooApplication\FundooApplication\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\223089626\source\BridgeLabz\FundooApplication\FundooApplication\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\223089626\source\BridgeLabz\FundooApplication\FundooApplication\bin\Debug\netcoreapp3.1\Experimental.System.Messaging.dll

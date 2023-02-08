@@ -55,5 +55,20 @@ namespace FundooApplication.Controllers
                 throw ex;
             }
         }
+
+        [HttpPost("ForgetPassword")]
+
+        public IActionResult ForgetPassword (string Email) {
+        
+            var forget = user.ForgetPassword(Email);
+            if (forget!= null)
+            {
+                return Ok(new ResponseModel<string> { Status = true, Message = "Mail Sent Succesfully", Data = forget });
+            }
+            else
+            {
+                return BadRequest(new ResponseModel<string> { Status = false, Message = "Mail Not Sent" });
+            }
+        }
     }
 }

@@ -10,5 +10,7 @@ namespace RepositoryLayer.Interfaces
     {
         public UserEntity Register(RegisterModel model);
         public string Login(LoginModel loginModel);
+        public string ForgetPassword(string Email);
+        public string ResetPassword(ResetPassword reset, string Email);
     }
 }

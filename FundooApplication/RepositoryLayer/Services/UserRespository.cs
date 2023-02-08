@@ -64,6 +64,44 @@ namespace RepositoryLayer.Services
             }
         }
 
+        public string ForgetPassword(string Email)
+        {
+            var EmailCheck =this.context.UserTable.Where(x => x.EmailID == Email).FirstOrDefault();
+            if (EmailCheck != null)
+            {
+                var token = GenerateJWTToken(EmailCheck.EmailID, EmailCheck.UserID);
+                new MSMQ().SendMessage(token, EmailCheck.EmailID,EmailCheck.FirstName);
+                return token;
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+        public string ResetPassword(ResetPassword reset,string Email) 
+        {
+            try
+            {
+                if(reset.NewPassword.Equals(reset.ConfirmPassword))
+                {
+                    var EmailCheck = context.UserTable.Where(b=> b.EmailID== Email).FirstOrDefault();
+                    EmailCheck.Password = EncryptPassword(reset.ConfirmPassword);
+                    context.SaveChanges();
+                    return "Reset Done";
+                }
+                else 
+                {
+                    return null;
+
+                }
+            }
+            catch(Exception ex)
+            {
+                return ex.Message;
+            }
+        }
+
         public string GenerateJWTToken(string EmailID, long UserID)
         {
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:SecretKey"]));

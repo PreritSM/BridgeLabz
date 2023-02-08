@@ -25,5 +25,15 @@ namespace BussinessLayer.Services
         {
             return this.user.Login (model);
         }
+
+        public string ForgetPassword(string Email)
+        {
+            return this.user.ForgetPassword (Email);
+        }
+
+        public string ResetPassword(ResetPassword reset, string Email)
+        {
+            return this.user.ResetPassword (reset, Email);
+        }
     }
 }
