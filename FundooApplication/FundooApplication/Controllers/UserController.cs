@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Linq;
+using System.Security.Claims;
 using BussinessLayer.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ModelLayer;
@@ -68,6 +71,23 @@ namespace FundooApplication.Controllers
             else
             {
                 return BadRequest(new ResponseModel<string> { Status = false, Message = "Mail Not Sent" });
+            }
+        }
+        [Authorize]
+        [HttpPatch("ResetPassword")]
+
+        public IActionResult ResetPassword(ResetPassword reset)
+        {
+            // var Email = User.Claims.FirstOrDefault(b => b.Type == "EmailID").Value;
+            var Email = User.FindFirst(ClaimTypes.Email).Value;
+            var forget = user.ResetPassword(reset,Email);
+            if (forget != null)
+            {
+                return Ok(new ResponseModel<string> { Status = true, Message = "Password Reset", Data = "Reset Done"  });
+            }
+            else
+            {
+                return BadRequest(new ResponseModel<string> { Status = false, Message = "Reset Unsuccessful" });
             }
         }
     }

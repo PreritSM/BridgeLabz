@@ -21,6 +21,7 @@ using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using MassTransit;
 
 namespace FundooApplication
 {
@@ -106,6 +107,20 @@ namespace FundooApplication
 
                 };
             });
+
+            services.AddMassTransit(x =>
+            {
+                x.AddBus(provider => Bus.Factory.CreateUsingRabbitMq(config =>
+                {
+                    config.UseHealthCheck(provider);
+                    config.Host(new Uri("rabbitmq://localhost"), h =>
+                    {
+                        h.Username("guest");
+                        h.Password("guest");
+                    });
+                }));
+            });
+            services.AddMassTransitHostedService();
         }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -114,7 +129,7 @@ namespace FundooApplication
             {
                 app.UseDeveloperExceptionPage();
             }
-            app.UseAuthorization();
+            
             app.UseAuthentication();
             app.UseHttpsRedirection();
             app.UseSwagger();
@@ -125,8 +140,8 @@ namespace FundooApplication
 
             app.UseRouting();
 
-            
 
+            app.UseAuthorization();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

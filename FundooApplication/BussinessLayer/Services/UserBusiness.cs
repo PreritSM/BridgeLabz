@@ -35,5 +35,10 @@ namespace BussinessLayer.Services
         {
             return this.user.ResetPassword (reset, Email);
         }
+
+        public UserTicket CreateTicketforPassword(string EmailID, string token)
+        {
+            return new UserTicket { EmailID = EmailID, Token = token};
+        }
     }
 }

@@ -122,5 +122,27 @@ namespace RepositoryLayer.Services
             return new JwtSecurityTokenHandler().WriteToken(token);
 
         }
+
+        public UserTicket CreateTicketforPassword(string EmailID, string token)
+        {
+            var userDetail = context.UserTable.FirstOrDefault(context => context.EmailID == EmailID);
+            if (userDetail != null)
+            {
+                UserTicket userTicket = new UserTicket
+                {
+                    FirstName = userDetail.FirstName,
+                    LastName = userDetail.LastName,
+                    EmailID = EmailID,
+                    Token= token,
+                    CreatedAt= DateTime.Now
+
+                };
+                return userTicket;
+            }
+            else
+            {
+                return null;
+            }
+        }
     }
 }

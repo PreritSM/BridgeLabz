@@ -66,3 +66,13 @@ C:\Users\223089626\source\BridgeLabz\FundooApplication\FundooApplication\bin\Deb
 C:\Users\223089626\source\BridgeLabz\FundooApplication\FundooApplication\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\223089626\source\BridgeLabz\FundooApplication\FundooApplication\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\223089626\source\BridgeLabz\FundooApplication\FundooApplication\bin\Debug\netcoreapp3.1\Experimental.System.Messaging.dll
+C:\Users\223089626\source\BridgeLabz\FundooApplication\FundooApplication\bin\Debug\netcoreapp3.1\Automatonymous.dll
+C:\Users\223089626\source\BridgeLabz\FundooApplication\FundooApplication\bin\Debug\netcoreapp3.1\GreenPipes.dll
+C:\Users\223089626\source\BridgeLabz\FundooApplication\FundooApplication\bin\Debug\netcoreapp3.1\MassTransit.dll
+C:\Users\223089626\source\BridgeLabz\FundooApplication\FundooApplication\bin\Debug\netcoreapp3.1\MassTransit.AspNetCoreIntegration.dll
+C:\Users\223089626\source\BridgeLabz\FundooApplication\FundooApplication\bin\Debug\netcoreapp3.1\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+C:\Users\223089626\source\BridgeLabz\FundooApplication\FundooApplication\bin\Debug\netcoreapp3.1\MassTransit.RabbitMqTransport.dll
+C:\Users\223089626\source\BridgeLabz\FundooApplication\FundooApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\223089626\source\BridgeLabz\FundooApplication\FundooApplication\bin\Debug\netcoreapp3.1\NewId.dll
+C:\Users\223089626\source\BridgeLabz\FundooApplication\FundooApplication\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\223089626\source\BridgeLabz\FundooApplication\FundooApplication\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
