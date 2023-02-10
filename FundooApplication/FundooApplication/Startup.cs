@@ -41,6 +41,8 @@ namespace FundooApplication
             services.AddDbContext<FundooDBContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:FundooDB"]));
             services.AddTransient<IUserRespository, UserRespository>();
             services.AddTransient<IUserBusiness, UserBusiness>();
+            services.AddTransient<INoteRepository, NoteRepository>();
+            services.AddTransient<INoteBusiness, NoteBusiness>();
             services.AddSwaggerGen(a =>
             {
                 //a.SwaggerDoc(
