@@ -144,5 +144,20 @@ namespace RepositoryLayer.Services
                 return null;
             }
         }
+
+        public string DeleteUser (long UserID)
+        {
+            var userDetail = context.UserTable.FirstOrDefault(context => context.UserID == UserID);
+            if (userDetail != null)
+            {
+                context.UserTable.Remove(userDetail);
+                context.SaveChanges();
+                return "Delete User Successfull";
+            }
+            else
+            {
+                return null;
+            }
+        }
     }
 }

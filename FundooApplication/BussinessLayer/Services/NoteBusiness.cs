@@ -25,5 +25,20 @@ namespace BussinessLayer.Services
         {
             return note.GetAllNotes(UserID);
         }
+
+        public string DeleteNote(long noteID)
+        {
+            return note.DeleteNote(noteID);
+        }
+
+        public NoteEntity UpdateNode(NoteModel notes, long noteID)
+        {
+            return note.UpdateNode(notes, noteID);
+        }
+
+        public bool PinOrUnpinNote(long noteID, long UserID)
+        {
+            return note.PinOrUnpinNote(noteID, UserID);
+        }
     }
 }

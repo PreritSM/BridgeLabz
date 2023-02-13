@@ -45,5 +45,58 @@ namespace RepositoryLayer.Services
             var NotesList = this.context.NoteTable.Where(a => a.UserId == UserID).ToList(); 
             return NotesList;
         }
+
+        public string DeleteNote(long noteID)
+        {
+            var delete = context.NoteTable.FirstOrDefault(a => a.NoteId == noteID);
+            if (delete != null)
+            {
+                context.NoteTable.Remove(delete);
+                context.SaveChanges();
+                return "Deleted Succesfully";
+            }
+            else
+            {
+                return null;
+            }
+        }
+        public NoteEntity UpdateNode(NoteModel note, long noteID)
+        {
+            var notes = context.NoteTable.Where(a => a.NoteId == noteID).FirstOrDefault();
+            if (note != null)
+            {
+                notes.Title = note.Title;
+                notes.Description = note.Description;
+                notes.Colour = note.Colour;
+                notes.Image = note.Image;
+                notes.Reminder = note.Reminder;
+                notes.ModifiedAt = DateTime.Now;
+                notes.CreatedAt = DateTime.Now;
+                notes.IsArchived = note.IsArchived;
+                notes.IsPinned = note.IsPinned;
+                notes.IsTrash = note.IsTrash; context.SaveChanges(); return notes;
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+        public bool PinOrUnpinNote (long noteID, long UserID)
+        {
+            NoteEntity note = context.NoteTable.Where(e => e.NoteId == noteID).FirstOrDefault();
+            if (note.IsPinned == false)
+            {
+                note.IsPinned = true;
+                context.SaveChanges(); 
+                return true;
+            }
+            else
+            {
+                note.IsPinned=false;
+                context.SaveChanges();
+                return false;
+            }
+        }
     }
 }

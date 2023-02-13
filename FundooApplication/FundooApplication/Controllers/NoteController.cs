@@ -49,5 +49,21 @@ namespace FundooApplication.Controllers
                 return BadRequest(new ResponseModel<NoteEntity> { Status = false, Message = "No note found" });
             }
         }
+
+        [HttpPut("PinUnpin")]
+
+        public IActionResult PinUnpin(long noteId)
+        {
+            long UserID = Convert.ToInt32(User.Claims.FirstOrDefault(a => a.Type == "UserID").Value);
+            var Notepin = noteBusiness.PinOrUnpinNote(noteId, UserID);
+            if (Notepin)
+            {
+                return Ok(new ResponseModel<bool> { Status = true, Message = "Note pinned successfully", Data = Notepin });
+            }
+            else
+            {
+                return Ok(new ResponseModel<bool> { Status = true, Message = "Note Unpinned Successfully", Data = Notepin });
+            }
+        }
     }
 }

@@ -40,5 +40,10 @@ namespace BussinessLayer.Services
         {
             return new UserTicket { EmailID = EmailID, Token = token};
         }
+
+        public string DeleteUser(long UserID)
+        {
+            return this.user.DeleteUser (UserID);   
+        }
     }
 }

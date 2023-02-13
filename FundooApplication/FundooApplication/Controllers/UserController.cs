@@ -5,6 +5,7 @@ using BussinessLayer.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using ModelLayer;
 using RepositoryLayer.Entity;
 using RepositoryLayer.Interfaces;
@@ -16,8 +17,8 @@ namespace FundooApplication.Controllers
     public class UserController : ControllerBase
     {
         private readonly IUserBusiness user;
-
-        public UserController(IUserBusiness user)
+        private readonly ILogger<UserController> logger ;    
+        public UserController(IUserBusiness user,ILogger<UserController> logger)
         {
             this.user = user;
         }
@@ -29,10 +30,12 @@ namespace FundooApplication.Controllers
             var registerData = user.Register(model);
             if (registerData != null)
             {
+                logger.LogInformation("Register Successful");
                 return Ok(new ResponseModel<UserEntity> { Status = true, Message = "Register Successfull", Data = registerData, });
             }
             else
             {
+                logger.LogInformation("Register Successful");
                 return BadRequest(new ResponseModel<UserEntity> { Status = false, Message = "Register Failed" });
             }
         }
@@ -88,6 +91,20 @@ namespace FundooApplication.Controllers
             else
             {
                 return BadRequest(new ResponseModel<string> { Status = false, Message = "Reset Unsuccessful" });
+            }
+        }
+
+        [HttpPost("Delete-User")]
+        public IActionResult DeleteUser(long id)
+        {
+            var msg = user.DeleteUser(id);
+            if (msg != null)
+            {
+                return Ok(new ResponseModel<string> { Status = true, Message = "User Deleted", Data = msg });
+            }
+            else
+            {
+                return BadRequest(new ResponseModel<string> { Status = false, Message = "User does't Exist or Process failed" });
             }
         }
     }

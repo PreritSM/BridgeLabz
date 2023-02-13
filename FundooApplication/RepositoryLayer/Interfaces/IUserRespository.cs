@@ -13,5 +13,7 @@ namespace RepositoryLayer.Interfaces
         public string ForgetPassword(string Email);
         public string ResetPassword(ResetPassword reset, string Email);
         public UserTicket CreateTicketforPassword(string EmailID, string token);
+
+        public string DeleteUser(long UserID);
     }
 }
