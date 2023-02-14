@@ -19,6 +19,31 @@ namespace RepositoryLayer.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("RepositoryLayer.Entity.CollabEntity", b =>
+                {
+                    b.Property<long>("CollabId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("CollabEmail")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("NoteID")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("UserID")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("CollabId");
+
+                    b.HasIndex("NoteID");
+
+                    b.HasIndex("UserID");
+
+                    b.ToTable("CollabTable");
+                });
+
             modelBuilder.Entity("RepositoryLayer.Entity.LabelEntity", b =>
                 {
                     b.Property<long>("LabelId")
@@ -113,6 +138,21 @@ namespace RepositoryLayer.Migrations
                     b.HasKey("UserID");
 
                     b.ToTable("UserTable");
+                });
+
+            modelBuilder.Entity("RepositoryLayer.Entity.CollabEntity", b =>
+                {
+                    b.HasOne("RepositoryLayer.Entity.NoteEntity", "Notes")
+                        .WithMany()
+                        .HasForeignKey("NoteID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("RepositoryLayer.Entity.UserEntity", "User")
+                        .WithMany()
+                        .HasForeignKey("UserID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("RepositoryLayer.Entity.LabelEntity", b =>

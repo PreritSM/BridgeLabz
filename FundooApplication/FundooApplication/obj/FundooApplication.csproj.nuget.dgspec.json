@@ -143,6 +143,10 @@
               "target": "Package",
               "version": "[3.1.0, )"
             },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
             "NLog": {
               "target": "Package",
               "version": "[5.1.1, )"
@@ -154,6 +158,14 @@
             "NLog.Web.AspNetCore": {
               "target": "Package",
               "version": "[5.2.1, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.90, )"
+            },
+            "StackExchange.Redis.Extensions.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -284,6 +296,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.20.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.0, )"

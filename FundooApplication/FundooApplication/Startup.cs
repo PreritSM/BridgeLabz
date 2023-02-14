@@ -43,6 +43,14 @@ namespace FundooApplication
             services.AddTransient<IUserBusiness, UserBusiness>();
             services.AddTransient<INoteRepository, NoteRepository>();
             services.AddTransient<INoteBusiness, NoteBusiness>();
+            services.AddTransient<ILabelBussiness, LabelBussiness>();
+            services.AddTransient<ILabelRepository, LabelRepository>();
+            services.AddMemoryCache();
+            services.AddStackExchangeRedisCache(
+                options =>
+                {
+                    options.Configuration = "localhost:6379";
+                });
             services.AddSwaggerGen(a =>
             {
                 //a.SwaggerDoc(

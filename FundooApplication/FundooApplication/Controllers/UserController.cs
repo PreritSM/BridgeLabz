@@ -21,6 +21,7 @@ namespace FundooApplication.Controllers
         public UserController(IUserBusiness user,ILogger<UserController> logger)
         {
             this.user = user;
+            this.logger = logger;
         }
 
         [HttpPost]
@@ -49,10 +50,12 @@ namespace FundooApplication.Controllers
                 var LoginData = user.Login(model);
                 if (LoginData != null)
                 {
+                    logger.LogInformation("User Logged In Successful");
                     return Ok(new ResponseModel<string> { Status = true, Message = "Login Succesful", Data = LoginData });
                 }
                 else
                 {
+                    logger.LogInformation("User could not login");
                     return BadRequest(new ResponseModel<string> { Status = false, Message = "login Failed" });
                 }
             }
@@ -69,10 +72,12 @@ namespace FundooApplication.Controllers
             var forget = user.ForgetPassword(Email);
             if (forget!= null)
             {
+                logger.LogInformation("Mail for reset password sent");
                 return Ok(new ResponseModel<string> { Status = true, Message = "Mail Sent Succesfully", Data = forget });
             }
             else
             {
+                logger.LogInformation("Mail for reset could not be sent");
                 return BadRequest(new ResponseModel<string> { Status = false, Message = "Mail Not Sent" });
             }
         }
@@ -86,10 +91,12 @@ namespace FundooApplication.Controllers
             var forget = user.ResetPassword(reset,Email);
             if (forget != null)
             {
+                logger.LogInformation("Password Reset Successfully");
                 return Ok(new ResponseModel<string> { Status = true, Message = "Password Reset", Data = "Reset Done"  });
             }
             else
             {
+                logger.LogInformation("Password Reset Unsuccessful");
                 return BadRequest(new ResponseModel<string> { Status = false, Message = "Reset Unsuccessful" });
             }
         }
@@ -100,10 +107,12 @@ namespace FundooApplication.Controllers
             var msg = user.DeleteUser(id);
             if (msg != null)
             {
+                logger.LogInformation("User Deleted Successfully");
                 return Ok(new ResponseModel<string> { Status = true, Message = "User Deleted", Data = msg });
             }
             else
             {
+                logger.LogInformation("User doesnt exist");
                 return BadRequest(new ResponseModel<string> { Status = false, Message = "User does't Exist or Process failed" });
             }
         }

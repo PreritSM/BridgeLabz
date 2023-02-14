@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "stCTnv3+UqetD5Ml6LTFZiIKXUcOzjn0DLjlRz4uA0TEll3ucd51cVHTpVgSXowENLIxd5Edfs+T9S7FB1eWnQ==",
+  "dgSpecHash": "EWdm9g+tFx7vsbfrtZVw8dUqspzzMBQ+37ktoW/r6UFjrbfuJBXsr1zB7MI+xVorz0P8g9ffN0aWV1XKt33vBQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\223089626\\source\\BridgeLabz\\FundooApplication\\BussinessLayer\\BussinessLayer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\223089626\\.nuget\\packages\\cloudinarydotnet\\1.20.0\\cloudinarydotnet.1.20.0.nupkg.sha512",
     "C:\\Users\\223089626\\.nuget\\packages\\experimental.system.messaging\\1.1.0\\experimental.system.messaging.1.1.0.nupkg.sha512",
+    "C:\\Users\\223089626\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\223089626\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\223089626\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\223089626\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\223089626\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\223089626\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -33,6 +37,7 @@
     "C:\\Users\\223089626\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\223089626\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\223089626\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "C:\\Users\\223089626\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\223089626\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\223089626\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\223089626\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
