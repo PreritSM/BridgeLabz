@@ -1,0 +1,27 @@
+2023-02-15 17:22:11.1758 DEBUG Logger Debugging
+2023-02-15 17:22:12.5246 DEBUG Hosting starting
+2023-02-15 17:22:12.5865 INFO User profile is available. Using 'C:\Users\223089626\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-15 17:22:13.2844 DEBUG Reading data from file 'C:\Users\223089626\AppData\Local\ASP.NET\DataProtection-Keys\key-71965d99-1953-473d-8418-fafb5509b890.xml'.
+2023-02-15 17:22:13.2981 DEBUG Found key {71965d99-1953-473d-8418-fafb5509b890}.
+2023-02-15 17:22:13.2981 DEBUG Considering key {71965d99-1953-473d-8418-fafb5509b890} with expiration date 2023-05-09 05:13:53Z as default key.
+2023-02-15 17:22:13.3463 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.32.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-02-15 17:22:13.3522 DEBUG Decrypting secret element using Windows DPAPI.
+2023-02-15 17:22:13.3522 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.32.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-02-15 17:22:13.3522 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-02-15 17:22:13.3522 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-02-15 17:22:13.3522 DEBUG Using key {71965d99-1953-473d-8418-fafb5509b890} as the default key.
+2023-02-15 17:22:13.3522 DEBUG Key ring with default key {71965d99-1953-473d-8418-fafb5509b890} was loaded during application startup.
+2023-02-15 17:22:13.3686 DEBUG Starting host: rabbitmq://localhost/
+2023-02-15 17:22:13.4092 DEBUG Connect: guest@localhost:5672/
+2023-02-15 17:22:13.5801 DEBUG Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 55009)
+2023-02-15 17:22:13.6648 DEBUG Loaded hosting startup assembly FundooApplication
+2023-02-15 17:22:13.6648 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-02-15 17:22:13.6648 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-02-15 17:22:13.6648 INFO Application started. Press Ctrl+C to shut down.
+2023-02-15 17:22:13.6648 INFO Hosting environment: Development
+2023-02-15 17:22:13.6648 INFO Content root path: C:\Users\223089626\source\BridgeLabz\FundooApplication\FundooApplication
+2023-02-15 17:22:13.6648 DEBUG Hosting started
+2023-02-15 17:22:13.7013 DEBUG Connection ID "18374686485577203713" disconnecting.
+2023-02-15 17:22:13.7111 INFO Request starting HTTP/2.0 GET https://localhost:44362/swagger/index.html  
+2023-02-15 17:22:13.7423 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2023-02-15 17:22:13.7423 TRACE All hosts are allowed.
